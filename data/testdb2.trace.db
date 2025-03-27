@@ -1,0 +1,9 @@
+2025-03-27 20:38:09.532567+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "groceries" not found (candidates are: "GROCERIES"); SQL statement:
+SELECT "groceries"."ID" AS "ID", "groceries"."NAME" AS "NAME" FROM "groceries" [42103-232]
+2025-03-27 20:38:14.860184+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "groceries" not found (candidates are: "GROCERIES"); SQL statement:
+INSERT INTO "groceries" ("NAME") VALUES (?) [42103-232]
+2025-03-27 20:38:18.182747+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "groceries" not found (candidates are: "GROCERIES"); SQL statement:
+SELECT "groceries"."ID" AS "ID", "groceries"."NAME" AS "NAME" FROM "groceries" [42103-232]

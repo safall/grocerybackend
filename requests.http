@@ -1,0 +1,38 @@
+### Post "Tomato!"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "name": "Tomato!"
+}
+
+### Post "Potato!"
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "name": "Potato!"
+}
+
+### Post "Onion!"
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "name": "Onion!"
+}
+
+### Get all the groceries
+GET http://localhost:8080/
+
+### Get the groceries by its id
+### Replace with grocery id for testing
+#@id=ffeb8f07-d26b-42c5-bd8a-2d818605c067
+GET http://localhost:8080/{{id}}
+
+### Get the groceries by its id
+### Replace with grocery id for testing
+#@id=e038df2f-2a9f-4cc8-9258-50ff104b25c6
+DELETE http://localhost:8080/{{id}}
