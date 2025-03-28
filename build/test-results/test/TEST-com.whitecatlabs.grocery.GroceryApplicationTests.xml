@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.whitecatlabs.grocery.GroceryApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-28T11:09:10.825Z" hostname="Safals-MacBook-Pro.local" time="0.546">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.whitecatlabs.grocery.GroceryApplicationTests" time="0.546"/>
+  <system-out><![CDATA[12:09:09.027 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.whitecatlabs.grocery.GroceryApplicationTests]: GroceryApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:09:09.116 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.whitecatlabs.grocery.GroceryApplication for test class com.whitecatlabs.grocery.GroceryApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-03-28T12:09:09.419+01:00  INFO 13165 --- [grocery] [    Test worker] c.w.grocery.GroceryApplicationTests      : Starting GroceryApplicationTests using Java 17.0.14 with PID 13165 (started by safal in /Users/safal/Documents/GitHub/grocerybackend)
+2025-03-28T12:09:09.420+01:00  INFO 13165 --- [grocery] [    Test worker] c.w.grocery.GroceryApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-03-28T12:09:09.842+01:00  INFO 13165 --- [grocery] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-03-28T12:09:09.877+01:00  INFO 13165 --- [grocery] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JDBC repository interface.
+2025-03-28T12:09:10.088+01:00  INFO 13165 --- [grocery] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-28T12:09:10.261+01:00  INFO 13165 --- [grocery] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/testdb2 user=NAME
+2025-03-28T12:09:10.263+01:00  INFO 13165 --- [grocery] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-28T12:09:10.815+01:00  INFO 13165 --- [grocery] [    Test worker] c.w.grocery.GroceryApplicationTests      : Started GroceryApplicationTests in 1.585 seconds (process running for 2.464)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
